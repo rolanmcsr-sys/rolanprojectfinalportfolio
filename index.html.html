@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="Styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="#home" class="logo">ROLAN</a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navLinks"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    type="button"
+                    aria-label="Switch to dark mode"
+                    aria-pressed="false"
+                >
+                    <span class="theme-icon" aria-hidden="true">☾</span>
+                    <span class="theme-label">Dark mode</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <h1>Hi, I'm Rolan Cesar N. Cariaga!</h1>
+
+                <p>
+                    I am a passionate IT student who loves
+                    building websites and learning new technologies.
+                    This portfolio shows who I am,
+                    what I can do, and where I want to go.
+                </p>
+
+                <a href="#projects" class="hero-link">View My Projects</a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="src/aa2d3826-33ef-4a9b-a97e-0603f896628a.jfif"
+                    alt="A picture of me"
+                >
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section class="section" id="about">
+            <h2>About Me</h2>
+
+            <div class="content">
+                <p>
+                    I am a second-year student who discovered my love for technology while building my first simple web page.
+                    Since then, I have been exploring web design, programming, and problem solving.
+                    I enjoy turning creative ideas into real, usable websites.
+                </p>
+
+                <p>
+                    I am currently studying Bachelor of Science
+                    in Information Technology at Datamex College
+                    of Saint Adeline.
+                </p>
+
+                <h3 class="subheading">Hobbies</h3>
+
+                <div class="card-container">
+                    <article class="card">
+                        <h4>Playing Guitar</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>Gaming</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>Photography</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>Basketball</h4>
+                    </article>
+                </div>
+
+                <h3 class="subheading">My Interests</h3>
+
+                <div class="card-container">
+                    <article class="card">
+                        <h4>PC Building</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>PC Troubleshooting</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>Artificial Intelligence</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>Cybersecurity</h4>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+
+            <div class="content">
+                <p>
+                    Here are some of the skills I have developed
+                    through my studies and personal projects.
+                </p>
+
+                <h3 class="subheading">Soft Skills</h3>
+
+                <div class="card-container">
+                    <article class="card">
+                        <h4>Creativity</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>Communication</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>Problem Solving</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>Critical Thinking</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>Teamwork</h4>
+                    </article>
+                </div>
+
+                <h3 class="subheading">Technical Skills</h3>
+
+                <div class="card-container">
+                    <article class="card">
+                        <h4>HTML &amp; CSS</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>C++</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>Python</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>SQL</h4>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+
+            <br>
+            <br>
+            <div class="content">
+                <div class="Project">
+                    <img src="src/1st_program.png" alt="System">
+                </div>
+
+                <br>
+                
+                <h3>C++ Calulator</h3>
+
+                <p>
+                    A C++ GUIless program that can do basic arithmetic operations,
+                    Such as Addition, Subtraction, Multiplication, And Division.
+                </p>
+
+                <h4>Technology used</h4>
+
+                <div class="card-container">
+                    <article class="card">
+                        <h4>C++</h4>
+                    </article>
+                </div>
+
+                <br>
+                <br>
+                <div class="Project">
+                    <img src="src/2nd_systempic.png" alt="System">
+                </div>
+
+                <br>
+                
+                <h3>Basic User Management System</h3>
+
+                <p>
+                    A program that allows to login, manage and save users via Backend Database.
+                </p>
+
+                <h4>Technology used</h4>
+
+                <div class="card-container">
+                    <article class="card">
+                        <h4>Visual Basic 6.0</h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>Microsoft Access</h4>
+                    </article>
+                </div>
+
+                <br>
+                <br>
+                <div class="Project">
+                    <img src="src/3rd_Proj.png" alt="System">
+                </div>
+
+                <br>
+
+                <h3>Portfolio</h3>
+
+                <p>
+                    A Portfolio containing My Hobbies, Interests , Skillset , and Projects.
+                </p>
+
+                <h4>Technology used</h4>
+
+                <div class="card-container">
+                    <article class="card">
+                        <h4>HTML </h4>
+                    </article>
+
+                    <article class="card">
+                        <h4>CSS</h4>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact -->
+    <footer class="footer" id="contact">
+        <h2>Contact Me</h2>
+
+        <p>rolanmcsr@gmail.com</p>
+        <p>09166785730</p>
+
+        <p class="copyright">
+            © 2026 Rolan Cariaga. All rights reserved.
+        </p>
+    </footer>
+</body>
+
+<script>
+    const themeToggle = document.getElementById("themeToggle");
+    const menuToggle = document.getElementById("menuToggle");
+    const navMenu = document.getElementById("navMenu");
+
+    // Light and dark mode
+    themeToggle.addEventListener("click", function () {
+        if (document.documentElement.dataset.theme === "light") {
+            document.documentElement.dataset.theme = "dark";
+        } else {
+            document.documentElement.dataset.theme = "light";
+        }
+    });
+
+    // Mobile menu
+    menuToggle.addEventListener("click", function () {
+        navMenu.classList.toggle("is-open");
+    });
+</script>
+</html>
